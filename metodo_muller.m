@@ -1,16 +1,5 @@
 function [raiz, iter, error] = muller(f, x0, x1, x2, tol, max_iter)
     % Método de Müller para encontrar raíces de ecuaciones no lineales
-    % 
-    % Inputs:
-    %   f - función a evaluar (como function handle, ej. @(x) x^2 - 2)
-    %   x0, x1, x2 - tres puntos iniciales
-    %   tol - tolerancia para el criterio de parada
-    %   max_iter - número máximo de iteraciones permitidas
-    %
-    % Outputs:
-    %   raiz - aproximación de la raíz encontrada
-    %   iter - número de iteraciones realizadas
-    %   error - error final de la aproximación
     
     % Inicialización
     iter = 0;
